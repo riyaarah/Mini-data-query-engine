@@ -1,5 +1,5 @@
 const express = require("express");
-const { queryProcessor, explainQuery, validateQuery } = require("../controllers/queryController");
+const { queryProcessor, explainQuery, validateQuery } = require("./queryController");
 
 const router = express.Router();
 
