@@ -1,6 +1,6 @@
 const express = require("express");
-const queryRoutes = require("./routes/queryRoutes");
-const authMiddleware = require("./middleware/authMiddleware");
+const queryRoutes = require("./queryRoutes");
+const authMiddleware = require("./authMiddleware");
 require("dotenv").config();
 
 const app = express();
